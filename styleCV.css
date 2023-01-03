@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.class1{
+    display: inline-block;
+    background-color: grey;
+    padding: 30px;
+    
+}
+.class2{
+   display: inline-block;  
+   padding: 30px;
+}
+.atouts{
+   display: inline-block;
+}
+#div3{
+    display: inline-block;
+}
+#div4{
+    display: inline-block;
+}
+#p2, #p3, #p4{
+    color: blue;
+    font-weight: bold;
+}
+#p5, #p6, #p7{
+    font-weight: bold;
+}
+#p1{
+    color: blue;
+}
